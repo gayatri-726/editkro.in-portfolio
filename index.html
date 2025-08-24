@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editkaro.in - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Editkaro.in</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div>
+      <h1>Creative Video Editing Portfolio</h1>
+      <p>Professional edits in shorts, reels, gaming, documentaries & more</p>
+      <a href="#work" class="btn">Explore Work</a>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>Our Work</h2>
+    <div class="work-grid">
+
+   <!-- Documentary -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="doc.jpg.jpg" alt="documentary" class="thumbnail">
+          <video class="video" controls>
+            <source src="documentary.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>documentary</h3>
+      </div>
+   
+      <!-- Instagram Short Reel -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="short.jpg.jpg" alt="Instagram Reel" class="thumbnail">
+          <video class="video" controls>
+            <source src="shortreel.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>Instagram Short Reel</h3>
+      </div>
+
+
+      <!-- Long Video -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="long.jpg.jpg" alt="Long Video" class="thumbnail">
+          <video class="video" controls>
+            <source src="long video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>Long Video</h3>
+      </div>
+
+      <!-- gaming -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="game.jpg.jpg" alt="gaming" class="thumbnail">
+          <video class="video" controls>
+            <source src="gaming.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>gaming</h3>
+      </div>
+
+      <!-- Anime Edit -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="anime.jpg" alt="Anime Video" class="thumbnail">
+          <video class="video" controls>
+            <source src="anime.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>Anime Edit</h3>
+      </div>
+
+      <!-- Ad Edit -->
+      <div class="card">
+        <div class="video-container" onclick="playVideo(this)">
+          <img src="ad.jpg.jpg" alt="Advertisement" class="thumbnail">
+          <video class="video" controls>
+            <source src="ad.mp4" type="video/mp4">
+          </video>
+        </div>
+        <h3>Advertisement Edit</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Editkaro</h2>
+    <p>Editkaro is a social media marketing and video editing agency. We specialize in short-form content, ads, gaming edits, anime edits, and professional color grading.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@editkaro.in</p>
+    <p>Follow us on Instagram & YouTube</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
